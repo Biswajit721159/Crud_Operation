@@ -12,7 +12,7 @@ export default function UpdateStudent() {
 
   
   useEffect(()=>{
-    fetch(`http://crud-operation-gamma.vercel.app/${Roll}`).then(response=>response.json()).then((res)=>{
+    fetch(`https://crud-operation-gamma.vercel.app/${Roll}`).then(response=>response.json()).then((res)=>{
       if(res!=undefined)
       {
         setname(res[0].name)
@@ -25,7 +25,7 @@ export default function UpdateStudent() {
   
   function submit()
   {
-    fetch('http://crud-operation-gamma.vercel.app/',{
+    fetch('https://crud-operation-gamma.vercel.app/',{
       method:'PUT',
       headers:{
           'Accept':'application/json',
