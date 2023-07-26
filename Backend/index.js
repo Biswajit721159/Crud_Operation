@@ -8,7 +8,7 @@ app.use(cors())
 
 // const path=require('path')
 
-mongoose.connect("mongodb://localhost:27017/student")
+mongoose.connect("mongodb+srv://biswajit2329:T1voipAip4RSgv97@cluster0.fw5wwvc.mongodb.net/student?retryWrites=true&w=majority")
 
 const ProductSceman=new mongoose.Schema({
     name:String,
