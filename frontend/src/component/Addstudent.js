@@ -11,10 +11,10 @@ export default function Addstudent() {
 
   function submit()
   {
-    console.log(name)
-    console.log(roll)
-    console.log(dept)
-    console.log(College_name)
+    // console.log(name)
+    // console.log(roll)
+    // console.log(dept)
+    // console.log(College_name)
     fetch('https://crud-operation-gamma.vercel.app/',{
         method:'POST',
         headers:{

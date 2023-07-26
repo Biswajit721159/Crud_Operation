@@ -15,7 +15,6 @@ export default function Home() {
   {
     fetch('https://crud-operation-gamma.vercel.app/').then(response=>response.json()).then((res)=>{
       setdata(res)
-      console.log(res)
     })
   }
 
@@ -32,8 +31,7 @@ export default function Home() {
           Roll:Roll
         })
      }).then(responce=>responce.json()).then((res)=>{
-      console.log(res)
-      loadproduct();
+        loadproduct();
      })
   }
   return (
