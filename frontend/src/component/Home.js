@@ -13,7 +13,7 @@ export default function Home() {
 
   function loadproduct()
   {
-    fetch('http://localhost:5000/').then(response=>response.json()).then((res)=>{
+    fetch('http://crud-operation-gamma.vercel.app/').then(response=>response.json()).then((res)=>{
       setdata(res)
       console.log(res)
     })
@@ -22,7 +22,7 @@ export default function Home() {
 
   function DeleteUser(Roll)
   {
-     fetch('http://localhost:5000/',{
+     fetch('http://crud-operation-gamma.vercel.app/',{
         method:'Delete',
         headers:{
             'Accept':'application/json',

@@ -15,7 +15,7 @@ export default function Addstudent() {
     console.log(roll)
     console.log(dept)
     console.log(College_name)
-    fetch('http://localhost:5000/',{
+    fetch('http://crud-operation-gamma.vercel.app/',{
         method:'POST',
         headers:{
             'Accept':'application/json',
